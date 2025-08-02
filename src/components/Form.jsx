@@ -1,8 +1,7 @@
 
 <form onSubmit={handleSubmit} className="form">
-<form class="mood-form">
-      <label for="mood">Choose a Category:</label>
-      <select id="mood" name="mood">
+      <label for="news">Choose a Category:</label>
+      <select id="news" name="news">
         <option value="">--Choose One--</option>
         <option value="general">General</option>
         <option value="world">World</option>
