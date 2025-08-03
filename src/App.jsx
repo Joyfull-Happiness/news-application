@@ -26,16 +26,9 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Weather API</h1>
-      <h2>See the current weather in any city!</h2>
+      <h1>BREAKING NEWS!</h1>
       <form onSubmit={handleSubmit} className="form">
-        <input
-          type="text"
-          placeholder="Enter a city"
-          value={city}
-          onChange={handleChange}
-          className="input"
-        />
+        
         <button type="submit" className="button">
           Get Weather
         </button>

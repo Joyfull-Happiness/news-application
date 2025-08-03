@@ -13,6 +13,7 @@ function NewsCard({ newsProp }) {
     // render the card in the return below. Use the same classNames if you want the styling to apply
     return (
       <div className="card">
+        <h1>Breaking News!</h1>
         <h2>{weather.name}</h2>
         <img src={iconUrl} alt={description} />
         <h3>{main}</h3>

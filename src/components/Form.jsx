@@ -1,4 +1,5 @@
 
+<body>
 <form onSubmit={handleSubmit} className="form">
       <label for="news">Choose a Category:</label>
       <select id="news" name="news">
@@ -17,7 +18,10 @@
   Get News
 </button>
 </form>
-
+ <div class="suggestion"></div>
+ <p>No news found.</p>
+ <script src="api.js"></script>
+ </body>
 
 
 
