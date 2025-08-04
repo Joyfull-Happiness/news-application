@@ -14,7 +14,7 @@ function NewsCard({ newsProp }) {
     return (
       <div className="card">
         <h1>Breaking News!</h1>
-        <h2>{weather.name}</h2>
+        <h2>{news.title}</h2>
         <img src={iconUrl} alt={description} />
         <h3>{main}</h3>
         <p className="description">{description}</p>

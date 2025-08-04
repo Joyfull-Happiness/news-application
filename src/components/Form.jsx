@@ -1,8 +1,12 @@
+function Form ({category, handleSubmit, handleChange }) {
+  
 
-<body>
+return (
+  <>
+  <div> 
 <form onSubmit={handleSubmit} className="form">
       <label for="news">Choose a Category:</label>
-      <select id="news" name="news">
+      <select id="news" name="news" value={category} onChange={handleChange}>
         <option value="">--Choose One--</option>
         <option value="general">General</option>
         <option value="world">World</option>
@@ -18,11 +22,12 @@
   Get News
 </button>
 </form>
- <div class="suggestion"></div>
- <p>No news found.</p>
- <script src="api.js"></script>
- </body>
+</div>
+ 
+  </>
+)
 
+}
 
 
 
