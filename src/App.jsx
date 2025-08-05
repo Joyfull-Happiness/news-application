@@ -30,7 +30,7 @@ function App() {
       <h1>BREAKING NEWS!</h1>
       {/* value is connected to the handlechange where it sets the cateogry as the value 
       and the onchange submit is connect with the api call, 
-       */}
+       */} {}
       <Form category={category} handleSubmit={handleSubmit} className="form" handleChange={setCategory}/>
         
       
