@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import NewsCard from './components/NewsCard.jsx';
+import NewsCard from './components/NewsCard.jsx';
 import Form from './components/Form.jsx';
 import './App.css';
 
@@ -35,6 +35,7 @@ function App() {
         
       
       {/* {newsData && <NewsCard newsProp={newsData} />} */}
+      {newsData && <NewsCard newsProp={newsData}/> }
 
       <div class="suggestion"></div>
  <p>No news found.</p>
