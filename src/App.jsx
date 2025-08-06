@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import NewsCard from './components/NewsCard.jsx';
-import Form from './components/Form.jsx';
+// import NewsCard from './components/NewsCard.jsx';
+// import Form from './components/Form.jsx';
 import './App.css';
 
 function App() {
@@ -30,14 +30,14 @@ function App() {
       <h1>BREAKING NEWS!</h1>
       {/* value is connected to the handlechange where it sets the cateogry as the value 
       and the onchange submit is connect with the api call, 
-       */} {}
-      <Form category={category} handleSubmit={handleSubmit} className="form" handleChange={setCategory}/>
-        
+       */} 
+      {/* <Form category={category} handleSubmit={handleSubmit} className="form" handleChange={handleChange}/>
+         */}
       
-      {/* {newsData && <NewsCard newsProp={newsData} />} */}
-      {newsData && <NewsCard newsProp={newsData}/> }
+      {/* {newsData && <NewsCard newsProp={newsData} />}
+      {newsData && <NewsCard newsProp={newsData}/> } */}
 
-      <div class="suggestion"></div>
+      <div className="suggestion"></div>
  <p>No news found.</p>
  </div>
 

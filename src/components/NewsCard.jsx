@@ -1,3 +1,4 @@
+import Form from './components/Form.jsx';
 
 function NewsCard({ newsProp }) {
     //weather is the entire data obj
@@ -14,13 +15,12 @@ function NewsCard({ newsProp }) {
     return (
       <div className="card">
         <h1>Breaking News!</h1>
-        <h2>{news.title}</h2>
-        <img src={iconUrl} alt={description} />
-        <h3>{main}</h3>
+        <Form category={category} handleSubmit={handleSubmit} className="form" handleChange={setCategory}/>
+       
+
+     
         <p className="description">{description}</p>
-        {/* Notice the difference between the temp without rounding vs with rounding */}
-        <p>High: {temp_max}°F</p>
-        <p>Low: {Math.round(temp_min)}°F</p>
+      
       </div>
     );
   }

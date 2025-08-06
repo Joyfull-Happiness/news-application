@@ -3,7 +3,7 @@ function Form ({category, handleSubmit, handleChange }) {
 
 return (
   <>
-  <div> 
+
 <form onSubmit={handleSubmit} className="form">
       <label for="news">Choose a Category:</label>
       <select id="news" name="news" value={category} onChange={handleChange}>
@@ -22,8 +22,6 @@ return (
   Get News
 </button>
 </form>
-</div>
- 
   </>
 )
 
